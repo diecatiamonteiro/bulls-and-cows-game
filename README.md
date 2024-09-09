@@ -34,8 +34,6 @@ Hint: 1 Bull, 2 Cows
 
 ## Game setup
 
-To play the game, you need to install the necessary dependencies.
-
 1. Clone the repository:
    ```bash
    git clone git@github.com:diecatiamonteiro/bulls-and-cows-game.git
