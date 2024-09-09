@@ -24,14 +24,21 @@ Hint: 1 Bull, 2 Cows
 - The bull is `2`, as it is in the correct position.
 - The cows are `4` and `1`, as they exist in the secret number but are in the wrong positions.
 
+## Game features
+
+- **Randomized Secret Number:** The computer generates a unique 4-digit number at the start of each game.
+- **Hints (Bulls & Cows):** After each guess, the game provides feedback on how many digits are correct (bulls) and how many are misplaced (cows).
+- **Replay Option:** After winning, the player can choose to play another round with a new secret number, without exiting the program.
+- **Input Validation:** The game ensures the player's guess is a valid 4-digit number with unique digits.
+- **Chalk Integration:** Console text is colorized using the `chalk` library to enhance the user experience.
+
 ## Game setup
 
 To play the game, you need to install the necessary dependencies.
 
 1. Clone the repository:
-
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:diecatiamonteiro/bulls-and-cows-game.git
    ```
 
 2. Install the required packages:
@@ -43,14 +50,6 @@ To play the game, you need to install the necessary dependencies.
    node index.js
    ```
 
-## Game features
-
-- **Randomized Secret Number:** The computer generates a unique 4-digit number at the start of each game.
-- **Hints (Bulls & Cows):** After each guess, the game provides feedback on how many digits are correct (bulls) and how many are misplaced (cows).
-- **Replay Option:** After winning, the player can choose to play another round with a new secret number, without exiting the program.
-- **Input Validation:** The game ensures the player's guess is a valid 4-digit number with unique digits.
-- **Chalk Integration:** Console text is colorized using the `chalk` library to enhance the user experience.
-
 ## Game example
 
 Here is an overview of the game Bulls and Cows.
@@ -59,6 +58,6 @@ Here is an overview of the game Bulls and Cows.
 
 (...)
 
-![game intro](/assets/game-won-exit.png)
+![game example](/assets/game-won-exit.png)
 
 ## Thanks for reading. I hope you enjoy the game!
