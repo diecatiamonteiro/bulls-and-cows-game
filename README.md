@@ -48,7 +48,7 @@ Hint: 1 Bull, 2 Cows
    node index.js
    ```
 
-## Game example
+## Game preview
 
 Here is an overview of the game Bulls and Cows.
 
